@@ -39,7 +39,7 @@ if st.button("Analyze resumes", type="primary", disabled=not job_description.str
                     job_description,
                     similarity_weight / 100,
                     skill_weight / 100
-                )
+                ) 
                 rows.append({
                     "Resume": uploaded.name,
                     "Match score (%)": result["final_score"],
